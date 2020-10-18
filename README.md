@@ -8,9 +8,9 @@
 ruby '2.7.0'
 
 Для работы должны быть установлены gems: 
- 'uri'
- 'net/http'
- 'mechanize'
+ - uri
+ - net/http
+ - mechanize
   
 Запуск в терминале:
   * ruby main.rb  
