@@ -15,7 +15,7 @@ films = []
 film_list.each do |item|
   title = item.at('td[2]/a').text()
   year = item.at('td[3]/a').text()
-  director = item.at('td[4]/a').text()
+  director = item.at('td[4]/a')&.text()
 
   films << Film.new(title, director, year)  
 end
